@@ -1,0 +1,25 @@
+body {
+    text-align: center; /* aligns the text of everything in the body to center */
+    }
+  nav {
+    background-color: steelblue; /* changes the background color behind the links */
+    padding: 10px;/* changes the height of the background behind the links */
+    }
+  a {
+    color: white; /* changes the color of the text of the links */
+    margin: 40px; /* changes the width between the links */
+    }
+  h1 {
+    color: steelblue; /* changes the color of the h1 header */
+  }
+  img {
+    width: 800px; /* changes the width of the image */
+    border: 4px solid steelblue; /* adds a customized border to the image */
+  }
+  p {
+    padding: 10px; /* changes the height of the background behind the footer */
+  }
+  footer {
+    background-color: steelblue; /* changes the background color of the footer */
+    color: white; /* changes the color of the footer */
+  }
