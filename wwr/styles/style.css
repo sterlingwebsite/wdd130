@@ -4,7 +4,8 @@
 }
 nav a {
     text-align: center;
-    color: #5776f2;
+    color: #7ec3ff;
+    text-decoration: none;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -19,25 +20,26 @@ main section {
     height: 725px;
 }
 body {
-    background-color: #fcfbfb; 
+    background-color: #7ec3ff; 
 }
 header {
     background-color:rgba(20,30,13, .7);
 }
 nav a:hover {
-    background-color: black;
-    color: white;
+    background-color: #5776f2;
+    color: #7ec3ff;
 }
 .book, .join {
-    background-color: #3c92ea;
-    color: #47539a;
+    background-color: #7ec3ff;
+    color: #5776f2;
+    text-decoration: none;
 }
 .book:hover, .join:hover {
     background-color: #5776f2;
     color: #7ec3ff;
 }
 #background {
-    background-color: #7ec3ff;
+    background-color: #3c92ea;
 }
 .msg {
     background-color: #7ec3ff;
@@ -59,7 +61,8 @@ h4 {
     color: #5776f2;
 }
 footer a {
-    color: #5776f2;
+    color: #47539a;
+    text-decoration: none;
 }
 footer a:hover {
     color: #47539a;
@@ -72,4 +75,10 @@ footer a:hover {
 }
 #hero-img {
     width: 100%;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
 }
