@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Playfair+Display&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +7,7 @@ nav a {
     text-align: center;
     color: #7ec3ff;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -20,7 +22,11 @@ main section {
     height: 725px;
 }
 body {
-    background-color: #7ec3ff; 
+    background-color: #7ec3ff;
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:rgba(20,30,13, .7);
@@ -30,35 +36,49 @@ nav a:hover {
     color: #7ec3ff;
 }
 .book, .join {
-    background-color: #7ec3ff;
-    color: #5776f2;
+    background-color: #5776f2;
+    color: #7ec3ff;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
-    background-color: #5776f2;
+    background-color: #47539a;
     color: #7ec3ff;
 }
 #background {
     background-color: #3c92ea;
 }
 .msg {
-    background-color: #7ec3ff;
+    background-color: #3c92ea;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #3c92ea;
     color: #47539a;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title {
     color: #5776f2;
+    font-family: 'Libre Baskerville', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #5776f2;
 }
 .msg h2 {
-    color: #5776f2;
+    color: #47539a;
+    font-family: 'Libre Baskerville', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .msg p {
-    color: #5776f2;
+    color: #47539a;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 footer a {
     color: #47539a;
@@ -72,6 +92,7 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -81,4 +102,22 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #5776f2;
+}
+main section img {
+    box-sizing: border-box;
 }
