@@ -11,6 +11,7 @@ nav a {
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    color: #7ec3ff;
 }
 .button-box {
     text-align: center;
@@ -30,6 +31,8 @@ body {
 }
 header {
     background-color:rgba(20,30,13, .7);
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 nav a:hover {
     background-color: #5776f2;
@@ -108,6 +111,8 @@ h2 {
 }
 #logo_link {
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 footer .social img {
     padding-top: 15px;
@@ -120,4 +125,34 @@ footer .social img {
 }
 main section img {
     box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px; 
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.card-img, .mountains {
+    width: 100%;
+}
+.rivers-card {
+    grid-column: 2/4;
+    grid-row: 2/3;
 }
