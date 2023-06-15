@@ -185,6 +185,16 @@ nav {
     opacity: .6;
     transform: scale(1.1);
 }
+/* new page */
+.smaller_paragraph {
+    font-size: smaller;
+}
+.adventures_page_title {
+    color: #47539a;
+    font-family: 'Libre Baskerville', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding-top: 3em;
+}
 
 /* @media query */
 @media screen and (max-width: 900px) {
