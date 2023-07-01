@@ -3,56 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML CSS | CSS</title>
+    <title>HTML CSS | HTML</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
-<body>
+<body class="pg_3">
     <header>
+
         <a id="logo_link" href="index.html">
             <img class="logo" src="images/logo.png" alt="HTML CSS Logo">
+
         </a>
         <nav>
+
             <a href="index.html">Home</a>
             <a href="demonstration_of_html.html">HTML</a>
             <a href="demonstration_of_css.html">CSS</a>
             <a href="contactus.html">Contact Us</a>
+
         </nav>
     </header>
     <main>
         <div class="headline">CSS</div>
-        <div class="slideshow">
-            <img src="images/creator_of_css.png" alt="image of Hakon Wium Lie">
-            <img src="images/example_of_css.png" alt="example of css">
-            <img src="images/css_spacing.webp" alt="how css can adjust spacing">
-            <img src="images/css_complicated.jpg" alt="complicated css">
-            <img src="images/beauty_of_css.jpg" alt="beauty of css">
-        </div>
-        <div class="text_box_for_slideshow">
-            <p class="history_of_css">
-                CSS, short for Cascading Style Sheets, has a rich history that dates back to the early days of the World Wide Web. It was first proposed in 1994 by Håkon Wium Lie and Bert Bos, with the intention of separating the structure and content of web documents from their presentation. The first version of CSS, known as CSS1, was released in 1996 and introduced basic styling capabilities. Over the years, CSS evolved with the introduction of CSS2 in 1998, which brought more advanced features like positioning and floating elements. CSS3, a modular approach to CSS, started being developed in 1999 and introduced a wide range of new properties and capabilities, including animations, transitions, and flexible box layouts. Since then, CSS has continued to evolve, with new specifications and updates being released regularly, empowering web developers to create visually appealing and responsive websites.
-            </p>
-            <p class="example_of_css">
-                In this example, the CSS code targets the p (paragraph) elements and applies the following styles: the font family is set to Arial or any sans-serif font, the font size is 16 pixels, the line height is 1.5 times the font size, the text color is a dark gray (#333333), and a margin of 10 pixels is added at the bottom of each paragraph. This CSS rule can be used to create consistent and visually appealing paragraphs across a website.
-            </p>
-            <p class="css_spacing">
-                CSS provides several mechanisms to adjust spacing in web pages. One way is through the use of margin and padding properties. The margin property controls the spacing outside an element, allowing you to specify the distance between the element and its neighboring elements. On the other hand, the padding property controls the spacing inside an element, allowing you to define the space between the element's content and its border. These properties can be set using specific values such as pixels, percentages, or relative units, and can be adjusted individually for each side of the element (top, right, bottom, left) or collectively using shorthand notation. By manipulating margin and padding values, CSS provides a flexible and precise way to adjust spacing, enabling web designers to create visually appealing and well-structured layouts.
-            </p>
-            <p class="css_complicated">
-                Indeed, CSS (Cascading Style Sheets) can become complex as the scope and requirements of a web project grow. CSS is responsible for styling the visual presentation of HTML elements, and as websites become more intricate, so does the CSS code. Managing multiple selectors, dealing with specificity conflicts, handling media queries, and ensuring cross-browser compatibility are just a few challenges that can make CSS complex. Moreover, as projects evolve and additional developers contribute, maintaining a consistent and scalable CSS architecture becomes crucial. However, with proper planning, organization, and utilizing methodologies like modular CSS, preprocessors, and frameworks, developers can mitigate the complexity and maintain a maintainable codebase.
-            </p>
-            <p class="beauty_of_css">
-                CSS (Cascading Style Sheets) has the remarkable ability to transform a plain webpage into a visually stunning masterpiece with just a few lines of code. The power of CSS lies in its versatility and expressive nature, allowing designers to customize every aspect of a website's appearance. From selecting the perfect color scheme to carefully crafting typography, CSS enables the creation of beautiful layouts, seamless animations, and captivating visual effects. With a skillful combination of selectors, properties, and values, a single paragraph can be transformed into an aesthetically pleasing element, with precisely defined fonts, spacing, borders, and background, resulting in a harmonious and visually appealing user experience. CSS grants designers the creative freedom to breathe life into the otherwise ordinary, making the web a truly captivating and beautiful place.
-            </p>
-        </div>
-        <div class="page_image">
-            <img src="images/css.png" alt="css">
-        </div>
+
+        <img class="pg_img" src="images/css.png" alt="css">
         <div class="page_image_text_box">
             CSS, short for Cascading Style Sheets, is a powerful web design language that enhances the presentation and visual appeal of HTML documents. With CSS, web developers can create stunning and consistent layouts, define colors, fonts, and other visual properties, and add animations and transitions to elements. By separating the style from the content, CSS allows for greater flexibility, maintainability, and reusability in web development, enabling the creation of visually engaging and user-friendly websites across different devices and screen sizes.
         </div>
+
+        <div class="w3-content w3-display-container slideshow">
+            <div class="w3-display-container mySlides mySlides">
+                <img src="images/creator_of_css.png" alt="image of Hakon Wium Lie">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black slideshow_text">
+                    Tim Berners-Lee, born on June 8, 1955, is a renowned computer scientist and the inventor of the World Wide Web. His groundbreaking creation revolutionized the way information is shared, accessed, and communicated worldwide. Berners-Lee developed the fundamental technologies that underpin the web, including HTML (Hypertext Markup Language), HTTP (Hypertext Transfer Protocol), and URLs (Uniform Resource Locators). With his vision of an open and accessible internet, he has dedicated his career to promoting web standards, digital rights, and the principles of net neutrality. Berners-Lee continues to advocate for a decentralized web, empowering individuals and fostering innovation while emphasizing the importance of privacy and data ownership. His extraordinary contributions have shaped the modern digital landscape and have had an indelible impact on society, making him one of the most influential figures in the history of computer science.
+                </div>
+            </div>
+            <div class="w3-display-container mySlides">
+                <img src="images/example_of_css.png" alt="example of css">
+                <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black slideshow_text">
+                    In this example, the CSS code targets the p (paragraph) elements and applies the following styles: the font family is set to Arial or any sans-serif font, the font size is 16 pixels, the line height is 1.5 times the font size, the text color is a dark gray (#333333), and a margin of 10 pixels is added at the bottom of each paragraph. This CSS rule can be used to create consistent and visually appealing paragraphs across a website.
+                </div>
+            </div>
+            <div class="w3-display-container mySlides">
+                <img src="images/css_spacing.webp" alt="how css can adjust spacing">
+                <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black slideshow_text">
+                    CSS provides several mechanisms to adjust spacing in web pages. One way is through the use of margin and padding properties. The margin property controls the spacing outside an element, allowing you to specify the distance between the element and its neighboring elements. On the other hand, the padding property controls the spacing inside an element, allowing you to define the space between the element's content and its border. These properties can be set using specific values such as pixels, percentages, or relative units, and can be adjusted individually for each side of the element (top, right, bottom, left) or collectively using shorthand notation. By manipulating margin and padding values, CSS provides a flexible and precise way to adjust spacing, enabling web designers to create visually appealing and well-structured layouts.
+                </div>
+            </div>
+            <div class="w3-display-container mySlides">
+                <img src="images/css_complicated.jpg" alt="complicated css">
+                <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black slideshow_text">
+                    Indeed, CSS (Cascading Style Sheets) can become complex as the scope and requirements of a web project grow. CSS is responsible for styling the visual presentation of HTML elements, and as websites become more intricate, so does the CSS code. Managing multiple selectors, dealing with specificity conflicts, handling media queries, and ensuring cross-browser compatibility are just a few challenges that can make CSS complex. Moreover, as projects evolve and additional developers contribute, maintaining a consistent and scalable CSS architecture becomes crucial. However, with proper planning, organization, and utilizing methodologies like modular CSS, preprocessors, and frameworks, developers can mitigate the complexity and maintain a maintainable codebase.
+                </div>
+            </div>
+            <div class="w3-display-container mySlides">
+                <img src="images/beauty_of_css.jpg" alt="beauty of css">
+                <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black slideshow_text">
+                    CSS (Cascading Style Sheets) has the remarkable ability to transform a plain webpage into a visually stunning masterpiece with just a few lines of code. The power of CSS lies in its versatility and expressive nature, allowing designers to customize every aspect of a website's appearance. From selecting the perfect color scheme to carefully crafting typography, CSS enables the creation of beautiful layouts, seamless animations, and captivating visual effects. With a skillful combination of selectors, properties, and values, a single paragraph can be transformed into an aesthetically pleasing element, with precisely defined fonts, spacing, borders, and background, resulting in a harmonious and visually appealing user experience. CSS grants designers the creative freedom to breathe life into the otherwise ordinary, making the web a truly captivating and beautiful place.
+                </div>
+            </div>
+
+                <button class="w3-button w3-display-left w3-black button_left button" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-display-right w3-black button button_right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+
         <div class="large_text_box">
             In conclusion, CSS (Cascading Style Sheets) is a powerful and essential web development tool that allows designers and developers to control the visual presentation and layout of HTML documents. With CSS, it becomes possible to customize the appearance of web pages by defining styles for various elements, such as fonts, colors, margins, and positioning. Its cascading nature ensures that styles can be easily applied and overridden, providing flexibility and maintainability to web projects. CSS plays a crucial role in creating visually appealing and user-friendly websites, enhancing the overall user experience and enabling the seamless integration of design and content.
         </div>
-        <div class="previous_button"></div>
+
+        <a href="demonstration_of_html.html" class="previous_page_link">Demonstration of HTML</a>
     </main>
     <footer>
         <p>HTML CSS &copy; 2023 - Sterling Steele</p>
@@ -70,5 +88,6 @@
             </a>
         </div>
     </footer>
+    <script src="scripts/script.js"></script>
 </body>
 </html>

@@ -2,71 +2,86 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>HTML CSS | Home</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
-    <header>
-        <a id="logo_link" href="index.html">
-            <img class="logo" src="images/logo.png" alt="HTML CSS Logo">
-        </a>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="demonstration_of_html.html">HTML</a>
-            <a href="demonstration_of_css.html">CSS</a>
-            <a href="contactus.html">Contact Us</a>
-        </nav>
-    </header>
-    <main>
-        <div class="hero">
-            <img src="images/htmlcss.png" alt="html and css icons">
-        </div>
-        <div class="headline">HTML and CSS</div>
-        <div class="slideshow">
-            <img src="images/html_fun.jpg" alt="examples of where html is used">
-            <img src="images/html_css.png" alt="html and css">
-            <img src="images/HTML-and-CSS.png" alt="html is a skeleton. html with css is the whole body">
-            <img src="images/html_and_css_making_art.webp" alt="html and css are making creative things">
-            <img src="images/html_and_css_making_art_2.png" alt="html and css making an artistic website">
-
-        </div>
-        <div class="text_box_for_slideshow">
-            <p class="text_box_1">
+<header>
+    <a id="logo_link" href="index.html">
+        <img class="logo" src="images/logo.png" alt="HTML CSS Logo">
+    </a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="demonstration_of_html.html">HTML</a>
+        <a href="demonstration_of_css.html">CSS</a>
+        <a href="contactus.html">Contact Us</a>
+    </nav>
+</header>
+<main>
+    <div class="hero">
+        <img src="images/htmlcss.png" alt="html and css icons">
+    </div>
+    <div class="headline">HTML and CSS</div>
+    <div class="w3-content w3-display-container">
+        <div class="w3-display-container mySlides">
+            <img src="images/html_fun.jpg" style="width:100%" alt="fun icons about html">
+            <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black slideshow_text">
                 HTML and CSS are two essential technologies that form the backbone of the modern web. HTML (Hypertext Markup Language) provides the structure and semantics, while CSS (Cascading Style Sheets) is responsible for the presentation and visual aspects of a web page. Here are some key reasons why HTML and CSS are crucial:
-            </p>
-            <p class="text_box_2">
+            </div>
+        </div>
+        <div class="w3-display-container mySlides">
+            <img src="images/html_css.png" style="width:100%" alt="image of the words html and css">
+            <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black slideshow_text">
                 Firstly, HTML is the foundation of web development. It allows us to create the structure of a webpage by organizing and arranging content in a logical manner. Without HTML, the web would be a chaotic mess, making it difficult for users to navigate and comprehend information effectively.
-            </p>
-            <p class="text_box_3">
+            </div>
+        </div>
+        <div class="w3-display-container mySlides">
+            <img src="images/HTML-and-CSS.png" style="width:100%" alt="image of the words html and css">
+            <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black slideshow_text">
                 Secondly, CSS plays a vital role in enhancing the user experience. It enables web designers to control the layout, typography, colors, and overall visual appearance of a website. CSS helps create visually appealing and consistent designs across multiple pages, ensuring a cohesive branding and user interface.
-            </p>
-            <p class="text_box_4">
+            </div>
+        </div>
+        <div class="w3-display-container mySlides">
+            <img src="images/html_and_css_making_art.webp" style="width:100%" alt="images and icons of html and css building a house">
+            <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black slideshow_text">
                 Moreover, HTML and CSS are crucial for accessibility. By using semantic HTML tags and proper structuring, we can improve the accessibility of web content for people with disabilities, such as screen readers and assistive technologies. CSS allows us to adjust the presentation based on user preferences, making it easier for individuals with visual impairments to navigate and consume web content.
-            </p>
-            <p class="text_box_5">
+            </div>
+        </div>
+        <div class="w3-display-container mySlides">
+            <img src="images/html_and_css_making_art_2.png" style="width:100%" alt="images and icons of html and css making art">
+            <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black slideshow_text">
                 Furthermore, HTML and CSS are fundamental for responsive web design. With the increasing variety of devices and screen sizes, it is essential to create websites that adapt to different platforms. CSS media queries enable us to optimize the layout and design for mobile, tablet, and desktop screens, ensuring a seamless user experience across devices.
-            </p>
+            </div>
         </div>
-        <div class="large_text_box">
-            In conclusion, HTML and CSS are of paramount importance in web development. They provide the structure, presentation, and accessibility needed to create user-friendly and visually appealing websites. Mastering these technologies is essential for anyone seeking to build modern, responsive, and engaging web experiences.
-        </div>
-        <div class="next_button">Demonstration of HTML</div>
-    </main>
-    <footer>
-        <p>HTML CSS &copy; 2023 - Sterling Steele</p>
-        <p><a href="site-plan.html">Site Plan</a></p>
-        <p><a href="contactus.html">Contact Us</a></p>
-        <div class="social">
-            <a href="https://facebook.com" target="_blank">
-                <img src="images/facebook.png" alt="fb icon">
-            </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="twitter icon">
-            </a>
-            <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram.png" alt="instagram icon">
-            </a>
-        </div>
-    </footer>
+        <button class="w3-button w3-display-left w3-black button_left button" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right w3-black button button_right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+    <div class="large_text_box">
+        In conclusion, HTML and CSS are of paramount importance in web development. They provide the structure, presentation, and accessibility needed to create user-friendly and visually appealing websites. Mastering these technologies is essential for anyone seeking to build modern, responsive, and engaging web experiences.
+    </div>
+    <a href="demonstration_of_html.html" class="next_page_link">Demonstration of HTML</a>
+</main>
+<footer>
+    <p>HTML CSS &copy; 2023 - Sterling Steele</p>
+    <p>
+        <a href="site-plan.html">Site Plan</a>
+    </p>
+    <p>
+        <a href="contactus.html">Contact Us</a>
+    </p>
+    <div class="social">
+        <a href="https://facebook.com" target="_blank">
+            <img src="images/facebook.png" alt="fb icon">
+        </a>
+        <a href="https://twitter.com" target="_blank">
+            <img src="images/twitter.png" alt="twitter icon">
+        </a>
+        <a href="https://instagram.com" target="_blank">
+            <img src="images/instagram.png" alt="instagram icon">
+        </a>
+    </div>
+</footer>
+<script src="scripts/script.js"></script>
 </body>
 </html>
