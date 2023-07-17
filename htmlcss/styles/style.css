@@ -11,6 +11,7 @@ footer{background-color:#00ffff;color:#ee00ff;padding:25px 50px;margin-top:200px
 
 .hero img{width:100%;padding:0;}
 .headline{font-size: 8em;margin-left:auto;margin-right:auto;margin-bottom:1.6em;width:fit-content;color:#ffff00;font-family: 'Dancing Script','Times New Roman', Times, serif;}
+.w3-content img{height: 30em;}
 .mySlides {width: fit-content;}
 .slideshow_text{width:35%;font-size:2em;margin-left:1em;margin-top:0.5em;margin-bottom:0.4em;color:#ee00ff;background-color:#ffff00;padding:0.5em;}
 .button_left{margin-left:4em;}
@@ -22,7 +23,6 @@ footer{background-color:#00ffff;color:#ee00ff;padding:25px 50px;margin-top:200px
 .pg_2 .pg_img{display: block;margin-left: auto;width: 22%;margin-right: 2.8em;}
 .pg_2 .page_image_text_box {display: block;margin-left: auto;width: 22%;margin-right: 2.1em;background-color: #ffff00;color: #ee00ff;margin-top: 1em;padding: 1em;}
 .pg_2 .slideshow{display: inline-block;width: 70%;position: relative;bottom: 546px;}
-.pg_2 .slideshow img{width:100%;}
 .pg_2 .slideshow .slideshow_text{font-size: 1.2em;width: 45%;padding: 1em;margin-top: 3em;}
 .pg_2 .button_left, .button_right{margin-top: 3em;}
 .pg_2 .large_text_box{width: 95%;font-size: 2em;margin: auto;position: relative;bottom: 346px; padding: 0.75em;}
@@ -32,7 +32,6 @@ footer{background-color:#00ffff;color:#ee00ff;padding:25px 50px;margin-top:200px
 .pg_3 .pg_img{display: block;margin-left: auto;width: 22%;margin-right: 2.8em;}
 .pg_3 .page_image_text_box {display: block;margin-left: auto;width: 22%;margin-right: 2.1em;background-color: #ffff00;color: #ee00ff;margin-top: 1em;padding: 1em;}
 .pg_3 .slideshow{display: inline-block;width: 70%;position: relative;bottom: 720px;}
-.pg_3 .slideshow img{width:100%;}
 .pg_3 .slideshow .slideshow_text{font-size: 1.2em;width: 45%;padding: 1em;margin-top: 3em;}
 .pg_3 .button_left, .button_right{margin-top: 3em;}
 .pg_3 .large_text_box{width: 95%;font-size: 2em;margin: auto;position: relative;bottom: 346px; padding: 0.75em;}
