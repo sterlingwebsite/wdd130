@@ -75,7 +75,7 @@ h1 {
     position: absolute;
     top: 47px;
     background-color: var(--secondary-color);
-    color: #var(--accent1-color);
+    color: var(--accent1-color);
     margin: 0;
     padding: 0;
 }
