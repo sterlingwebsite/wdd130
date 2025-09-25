@@ -68,7 +68,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--primary-color);
-    color: #var(--accent2-color);
+    color: var(--accent2-color);
 }
 
 .hero article {
