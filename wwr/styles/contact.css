@@ -1,0 +1,165 @@
+/* Global styles */
+* {
+    /* outline: 1px solid red; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Header styles */
+header{
+  background-color: #dacafb;
+  color: black;
+  height: 250px;
+  margin: 10px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+header img {
+    border: 1px solid black;
+}
+
+header nav {
+    display: flex;
+    border: 1px solid black;
+}
+
+header nav .about {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+ }
+
+header nav .trips {
+    border-right: 1px solid black;
+}
+
+header a {
+    background-color: white;
+    padding: 1em 0;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+/* Company Information styles */
+.company-info {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.company-info h1 {
+    font-weight: normal;
+}
+
+.company-info address {
+    font-style: normal;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Map and Form styles */
+.map-and-form {
+    display: flex;
+    justify-content: space-around;
+}
+
+.map {
+    border: 1px solid black;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    align-items: center;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.message-container {
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe {
+    grid-column: span 2;
+}
+
+.submit-button {
+    grid-column: span 2;
+}
+
+/* Employees styles */
+.employees {
+    background-color: white;
+    color: black;
+    margin: 10px;
+    border: 1px solid black;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.employees h2 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.employee-list img {
+    border: 1px solid black;
+    height: 150px;
+}
+
+.employee-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.employee-list div {
+    text-align: center;
+}
+
+.employee-list p {
+    font-size: 1.75em;
+}
+
+/* Footer styles */
+footer {
+    background-color: #dacafb;
+    color: black;
+    height: 150px;
+    margin: 10px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    align-items: center;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+footer nav {
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 0 10px;
+}
+
+footer img {
+    width: 50px;
+}
