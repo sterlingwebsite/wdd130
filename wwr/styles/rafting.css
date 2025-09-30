@@ -81,7 +81,7 @@ header a {
     padding: 30px 0;
 }
 
-.hero article {
+.hero .hero-article {
     background-color: black;
     margin: 0 4%;
     display: flex;
