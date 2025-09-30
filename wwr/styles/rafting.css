@@ -11,8 +11,9 @@
 header{
   background-color: #dacafb;
   color: black;
-  height: 250px;
-  margin: 10px;
+  height: 300px;
+  margin: 2%;
+  margin-bottom: 25px;
   border: 1px solid black;
   display: flex;
   align-items: center;
@@ -22,6 +23,7 @@ header{
 
 header img {
     border: 1px solid black;
+    width: 270px;
 }
 
 header nav {
@@ -40,13 +42,129 @@ header nav .trips {
 
 header a {
     background-color: white;
-    padding: 1em 0;
-    width: 150px;
+    padding: 0.75em 0;
+    width: 250px;
+    font-size: 2.2em;
     text-align: center;
     text-decoration: none;
     color: black;
 }
 
+/* main styles */
+
+/* about.html */
+/* div class hero styles */
+.hero {
+    /* height: 550px; */
+    margin: 25px 2%;
+    position: relative;
+    padding-bottom: 361px;
+    border: 1px solid black;
+}
+
+.hero-img {
+    width: 100%;
+    display: block;
+    position: absolute;
+    z-index: -1;
+}
+
+.hero h1 {
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    text-shadow:
+    -2px -2px 0 black,
+     2px -2px 0 black,
+    -2px  2px 0 black,
+     2px  2px 0 black;
+    padding: 30px 0;
+}
+
+.hero article {
+    background-color: black;
+    margin: 0 4%;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+}
+
+.hero .happy-employee {
+    width: 200px;
+}
+
+.hero p {
+    color: white;
+    font-size: 2em;
+}
+
+/* section class history styles */
+.history {
+    margin: 0 2%;
+    border: 1px solid black;
+}
+
+.history h2 {
+    text-align: center;
+    font-size: 3.5em;
+    padding-top: 1%;
+    padding-bottom: 10px;
+}
+
+.history .history-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    margin: 0 2%;
+    margin-bottom: 2%;
+    align-items: center;
+}
+
+.history p {
+    font-size: 2em;
+    margin: 0 6%;
+}
+
+.history img {
+    width: 400px;
+}
+
+/* section class adventure styles */
+.adventure {
+    margin: 25px 2%;
+    border: 1px solid black;
+    padding-bottom: 2%;
+}
+
+.adventure h2 {
+    text-align: center;
+    font-size: 3.5em;
+    padding: 1% 0;
+}
+
+.adventure .adventure-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.adventure .adventure-grid figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adventure .adventure-grid figcaption{
+    width:fit-content;
+    font-size: 1.5em;
+    margin-top: 2%;
+}
+
+.adventure .adventure-grid img {
+    width: 250px;
+}
+
+/* contact.html */
 /* Company Information styles */
 .company-info {
     text-align: center;
@@ -138,7 +256,8 @@ footer {
     background-color: #dacafb;
     color: black;
     height: 150px;
-    margin: 10px;
+    margin: 2%;
+    margin-top: 25px;
     border: 1px solid black;
     display: grid;
     grid-template-columns: 2fr 3fr 2fr;
@@ -147,7 +266,7 @@ footer {
 
 footer p {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 2.2em;
 }
 
 footer nav {
@@ -161,5 +280,5 @@ footer a {
 }
 
 footer img {
-    width: 50px;
+    width: 80px;
 }
