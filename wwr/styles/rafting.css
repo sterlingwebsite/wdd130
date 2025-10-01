@@ -50,7 +50,155 @@ header a {
     color: black;
 }
 
-/* main styles */
+/* Main styles */
+
+/* index.html */
+/* hero */
+.hero-img-home {
+    width: 100%;
+}
+
+.hero-home {
+    position: relative;
+    margin: 3em 0;
+}
+
+.hero-home h1 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-shadow:
+    -3px -3px 0 black,
+    3px -3px 0 black,
+    -3px  3px 0 black,
+    3px  3px 0 black;
+    font-size: 6em;
+    padding: 3% 0;
+}
+
+/* newsletter */
+.home-newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 19em;
+    margin: 3em;
+}
+
+.home-newsletter h2 {
+    font-size: 3em;
+}
+
+.home-newsletter p {
+    font-size: 1.7em;
+}
+
+.home-form {
+    display: flex;
+    justify-content: space-around;
+    width: 54em;
+}
+
+.home-form label, .home-form button {
+    font-size: 1.4em;
+}
+
+.home-form button {
+    padding: 0 2%;
+}
+
+/* call to action */
+.home-call-to-action {
+    position: relative;
+    margin: 3em 0;
+}
+
+.home-cta-grid-position-absolute {
+    position: absolute;
+}
+
+.home-cta-info {
+    width: 60%;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    margin: 3em;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 20em;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+}
+
+.home-cta-info h2 {
+    font-size: 3em;
+}
+
+.home-cta-info p {
+    font-size: 2em;
+}
+
+.home-cta-info a {
+    font-size: 2em;
+    text-decoration: none;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 1% 2%;
+    background-color: rgb(194, 226, 255);
+}
+
+/* call to action -> grid showcase */
+.home-grid-showcase {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid black;
+    margin: 0 3em;
+    margin-top: 11.5em;
+}
+
+.home-grid-showcase h2 {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 0.7em;
+}
+
+.home-grid-container {
+    margin: 2em 3em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.home-grid-item {
+    /* padding: 0 9em; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-grid-item h3 {
+    font-size: 2.2em;
+    margin: 0.5em 0;
+}
+
+.home-grid-item p {
+    /* width: fit-content; */
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.home-grid-showcase .home-grid-item img {
+    height: 20em;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+/* call to action and grid full background image */
+
+.home-cta-background-img {
+    width: 100%;
+}
 
 /* about.html */
 /* div class hero styles */
